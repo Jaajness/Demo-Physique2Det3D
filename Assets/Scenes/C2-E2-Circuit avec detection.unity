@@ -241,7 +241,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69390419}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &69390423
 Camera:
   m_ObjectHideFlags: 0
@@ -356,6 +356,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ramp-end-solid-a (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 452e16899c035644bb6ca71dbe9c2e5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -430,6 +435,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ramp-end-solid-a
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 452e16899c035644bb6ca71dbe9c2e5c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -499,10 +509,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3947135047237357088, guid: e8f7ee6044052564489b7ff8502842a5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8f7ee6044052564489b7ff8502842a5,
         type: 3}
       propertyPath: m_Name
       value: Boule
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8f7ee6044052564489b7ff8502842a5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3262342966974626954, guid: e8f7ee6044052564489b7ff8502842a5,
         type: 3}
@@ -523,6 +543,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 242078275}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e8f7ee6044052564489b7ff8502842a5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 242078279}
   m_SourcePrefab: {fileID: 100100000, guid: e8f7ee6044052564489b7ff8502842a5, type: 3}
 --- !u!4 &242078273 stripped
 Transform:
@@ -584,6 +608,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &242078279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242078274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d4d7b8006b8767428fde5ec00fad48a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,7 +769,7 @@ GameObject:
   - component: {fileID: 398481808}
   - component: {fileID: 398481807}
   - component: {fileID: 398481806}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: curve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1030,7 +1066,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442290691}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &442290695
 Camera:
   m_ObjectHideFlags: 0
@@ -1188,6 +1224,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bend-medium
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2ac6f11139336304cb1ad52fa7bd8417,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1212,9 +1253,9 @@ GameObject:
   - component: {fileID: 765340852}
   - component: {fileID: 765340851}
   - component: {fileID: 765340850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cible B
-  m_TagString: Untagged
+  m_TagString: Cible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1393,7 +1434,7 @@ GameObject:
   - component: {fileID: 901645761}
   - component: {fileID: 901645760}
   - component: {fileID: 901645759}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ramp-long-d
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1549,6 +1590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: helix-left
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a3b61ccc5e10f8f41a5cc3cd40ce1925,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1799,7 +1845,7 @@ GameObject:
   - component: {fileID: 1330265672}
   m_Layer: 0
   m_Name: Cible A
-  m_TagString: Untagged
+  m_TagString: Detect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1826,10 +1872,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 14
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &1330265673
 BoxCollider:
@@ -1929,7 +1975,7 @@ GameObject:
   - component: {fileID: 1336511965}
   - component: {fileID: 1336511964}
   - component: {fileID: 1336511963}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ramp-end-solid-a (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2086,6 +2132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: slant-d (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df72db215fa6f044d9329b8571163a19,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2160,6 +2211,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ramp-start-d (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1aae88c29a617bf46a5f8be1336d4e65,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2233,6 +2289,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: helix-left (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a3b61ccc5e10f8f41a5cc3cd40ce1925,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2313,6 +2374,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bump-a
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d2cae0b0c40c4ec44bb48c5db2eb807c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2369,9 +2435,9 @@ GameObject:
   - component: {fileID: 1757956070}
   - component: {fileID: 1757956069}
   - component: {fileID: 1757956068}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cible C
-  m_TagString: Untagged
+  m_TagString: Cible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2501,7 +2567,7 @@ GameObject:
   - component: {fileID: 1804386328}
   - component: {fileID: 1804386327}
   - component: {fileID: 1804386326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ramp-start-d
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2691,6 +2757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: slant-d (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df72db215fa6f044d9329b8571163a19,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

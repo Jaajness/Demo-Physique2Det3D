@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Cible
+  - Detect
   layers:
   - Default
   - TransparentFX
